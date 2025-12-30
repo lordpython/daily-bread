@@ -885,7 +885,7 @@ export default function Home() {
       <Button
         className="fixed bottom-6 left-6 h-14 w-14 rounded-full shadow-2xl bg-green-600 hover:bg-green-700 text-white z-50 flex items-center justify-center p-0 min-h-[56px] min-w-[56px]"
         onClick={handleWhatsAppContact}
-        aria-label="تواصل معنا عبر واتساب"
+        aria-label="كلمنا على الواتساب"
         style={{
           animation: !prefersReducedMotion ? 'bounceIn 0.5s ease-out 1s both' : 'none'
         }}
@@ -897,7 +897,7 @@ export default function Home() {
       <Sheet open={addOnsModalOpen} onOpenChange={setAddOnsModalOpen}>
         <SheetContent side="left" className="w-full sm:w-[500px] overflow-y-auto">
           <SheetHeader>
-            <SheetTitle className="text-right">اختر الإضافات</SheetTitle>
+            <SheetTitle className="text-right">اختار إضافاتك</SheetTitle>
           </SheetHeader>
           <div className="mt-6 space-y-4">
             {selectedProductForAddOns && (() => {
