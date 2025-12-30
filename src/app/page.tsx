@@ -222,10 +222,10 @@ export default function Home() {
       const product = products.find(p => p.id === basketItem.id)
       const itemAddOns = basketItem.addOns.map(addOnId =>
         addOns.find(a => a.id === addOnId)
-      ).filter(Boolean)
+      ).filter((addOn): addOn is AddOn => addOn !== undefined)
       const addOnsTotal = itemAddOns.reduce((sum, addOn) => sum + addOn.price, 0)
       return { ...product, quantity: basketItem.quantity, addOns: itemAddOns, addOnsTotal, basketIndex: index }
-    }).filter(Boolean)
+    }).filter(Boolean) as Array<typeof products[0] & { quantity: number; addOns: AddOn[]; addOnsTotal: number; basketIndex: number }>
   }
 
   const calculateTotal = () => {
