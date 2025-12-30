@@ -574,7 +574,7 @@ export default function Home() {
                   اشتراك شهري
                 </h3>
                 <p className="text-muted-foreground text-base">
-                  اشتراك شهري — نوصلك ٤ مرات بالأسبوع
+                  اشتراك شهري — توصيل مرة بالأسبوع (٤ مرات بالشهر)
                 </p>
               </div>
             </div>
