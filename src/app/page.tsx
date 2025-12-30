@@ -749,7 +749,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
                 <ShoppingBasket className="h-7 w-7 text-primary" />
-                ملخص سلتك
+                سلتك
               </h3>
 
               <div className="space-y-4 mb-6">
