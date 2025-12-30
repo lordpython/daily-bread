@@ -968,7 +968,7 @@ export default function Home() {
                   }
                 }}
               >
-                أضف بدون إضافات
+                بدون إضافات
               </Button>
               <Button
                 size="lg"
@@ -980,7 +980,7 @@ export default function Home() {
                 }}
                 disabled={selectedAddOns.length === 0}
               >
-                أضف إلى السلة
+                أضف للسلة
                 <ShoppingBasket className="mr-2 h-4 w-4" />
               </Button>
             </div>
