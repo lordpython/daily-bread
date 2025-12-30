@@ -875,7 +875,7 @@ export default function Home() {
               className="gap-2 min-h-[44px]"
             >
               <Phone className="h-4 w-4" />
-              تواصل معنا
+              كلمنا
             </Button>
           </div>
         </div>
